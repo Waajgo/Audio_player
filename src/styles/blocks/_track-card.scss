@@ -1,0 +1,26 @@
+.card-image {
+  &::part(base) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 8px;
+  }
+
+  &::part(image) {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__title {
+    font-size: var(--sl-font-size-small);
+    color: $color-chinese-black;
+    margin: 0 0 10px;
+  }
+
+  &__artist {
+    font-size: var(--sl-font-size-x-small);
+    margin: 0;
+    color: $color-new-gray;
+  }
+}

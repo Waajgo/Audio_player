@@ -1,0 +1,20 @@
+.points {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  transition: color $transition300;
+  color: $color-new-gray;
+
+  &:hover sl-icon {
+    color: $color-smashed-pumpkin;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 4px;
+  }
+}
