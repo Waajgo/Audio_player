@@ -1,5 +1,5 @@
 import { el } from "redom";
 
 export function playerView(): HTMLElement {
-  return el('footer', {class: 'player'});
+  return el('footer', {className: 'player'});
 }

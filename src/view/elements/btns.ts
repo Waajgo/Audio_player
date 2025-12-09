@@ -1,0 +1,13 @@
+import { el } from "redom";
+
+export const favoriteBtnEl = (): HTMLElement => {
+  return el('button', { className: 'btn btn-favorite' }, [
+    el('sl-icon', { className: 'btn-favorite__icon', library: 'app-icons', name: 'heart' })
+  ]);
+}
+
+export const moreBtnEl = (): HTMLElement => {
+  return el('button', { className: 'btn btn-more' }, [
+    el('sl-icon', { className: 'btn-more__icon', library: 'app-icons', name: 'points' })
+  ]);
+}

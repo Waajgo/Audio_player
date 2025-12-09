@@ -1,14 +1,14 @@
 import { el } from "redom";
-import cover from "@/assets/cover.png";
+import cover from "../../../public/assets/cover.png";
 
 export function trackCard(title: string, artist: string): HTMLElement {
-  return el('sl-card', { class: 'card-image' }, [
+  return el('sl-card', { className: 'card-image' }, [
             el('img', {
               slot: 'image',
               src: cover,
               alt: 'Album wrapper'
             }),
-            el('p', { class: 'card-image__title' }, title),
-            el('p', { class: 'card-image__artist' }, artist),
+            el('p', { className: 'card-image__title' }, title),
+            el('p', { className: 'card-image__artist' }, artist),
           ]);
 }

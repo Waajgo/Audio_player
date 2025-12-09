@@ -1,0 +1,15 @@
+/* Global */
+/* ------------------------------------ */
+@import "global/normalize";
+@import "global/variables";
+@import "global/mixins";
+@import "global/fonts";
+@import "global/reboot";
+@import "global/container";
+@import "global/visually-hidden";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "blocks/track-table";
+@import "blocks/track-card";
+@import "blocks/btn";

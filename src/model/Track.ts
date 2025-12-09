@@ -1,6 +1,6 @@
 import { TrackType } from "@/types/types";
 
-export class Track implements TrackType{
+export class Track implements TrackType {
   id: number;
   title: string;
   artist: string;

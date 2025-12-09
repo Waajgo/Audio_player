@@ -1,4 +1,4 @@
-.favorite {
+.btn {
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -11,11 +11,22 @@
   &:hover sl-icon {
     color: $color-smashed-pumpkin;
   }
+}
 
+.btn-favorite {
   &__icon {
     width: 24px;
     height: 24px;
     color: transparent;
     stroke: $color-smashed-pumpkin;
+  }
+}
+
+.btn-more {
+  color: $color-new-gray;
+
+  &__icon {
+    width: 24px;
+    height: 4px;
   }
 }
