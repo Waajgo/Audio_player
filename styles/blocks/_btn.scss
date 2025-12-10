@@ -11,22 +11,38 @@
   &:hover sl-icon {
     color: $color-smashed-pumpkin;
   }
-}
 
-.btn-favorite {
-  &__icon {
+  &--favorite sl-icon {
     width: 24px;
     height: 24px;
     color: transparent;
     stroke: $color-smashed-pumpkin;
   }
-}
 
-.btn-more {
-  color: $color-new-gray;
+  &--more {
+    color: $color-new-gray;
 
-  &__icon {
-    width: 24px;
-    height: 4px;
+    & sl-icon {
+      width: 24px;
+      height: 4px;
+    }
+  }
+
+  &--logo {
+    width: 100%;
+    height: 70px;
+    background-color: $color-white;
+
+    & sl-icon {
+      width: 184px;
+      height: 30px;
+    }
   }
 }
+
+
+
+
+
+
+

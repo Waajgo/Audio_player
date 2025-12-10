@@ -1,0 +1,30 @@
+.radio-nav {
+  &::part(button-group) {
+    width: 100%;
+  }
+  &::part(button-group__base) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__btn::part(button) {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 30px;
+    justify-content: flex-start;
+    gap: 12px;
+    border: none;
+    outline: none;
+  }
+
+  &__btn::part(button--checked) {
+    background-color: $color-white;
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    color: $color-smashed-pumpkin;
+  }
+}

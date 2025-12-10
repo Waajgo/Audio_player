@@ -1,5 +1,5 @@
 import { el } from "redom";
-import cover from "../../../public/assets/cover.png";
+import cover from "../../../public/assets/img/cover.png";
 
 export function trackCard(title: string, artist: string): HTMLElement {
   return el('sl-card', { className: 'card-image' }, [
