@@ -2,7 +2,7 @@ import { el, setChildren } from 'redom';
 import '@shoelace-style/shoelace/dist/components/card/card.js';
 import '@shoelace-style/shoelace/dist/components/relative-time/relative-time.js';
 import { trackCard } from "@/view/elements/trackCard";
-import { favoriteBtnEl, moreBtnEl } from "@/view/elements/btns";
+import { favoriteBtnEl, moreBtnEl } from "@/view/elements/btn";
 import { convertApiDuration } from "@/utils/helpers";
 import { TrackType } from "@/types/types";
 

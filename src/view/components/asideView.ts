@@ -1,5 +1,5 @@
 import { el } from "redom";
-import { logoBtnEl } from "@/view/elements/btns";
+import { logoBtnEl } from "@/view/elements/btn";
 import { radioBtnEl } from "@/view/elements/radio";
 
 export function asideView() {

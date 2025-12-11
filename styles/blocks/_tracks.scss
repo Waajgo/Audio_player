@@ -1,0 +1,14 @@
+.tracks {
+  &__wrap {
+    flex: 1;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+  }
+}

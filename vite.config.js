@@ -1,21 +1,19 @@
-// vite.config.ts
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-	// если нужно деплоить не в корень, можно указать base: '/subpath/'
 	base: '/',
-	root: '.', // корень проекта
+	root: '.',
 
 	resolve: {
 		alias: {
-			'@': resolve(__dirname, 'src'), // импорт вида "@/utils/helpers"
+			'@': resolve(__dirname, 'src'),
 		},
 	},
 
 	server: {
 		port: 5173,
-		open: true, // открыть браузер при запуске
+		open: true,
 		strictPort: true,
 		// пример прокси для бэка:
 		// proxy: {
@@ -28,7 +26,7 @@ export default defineConfig({
 
 	build: {
 		outDir: 'dist',
-		sourcemap: true, // удобно для отладки
+		sourcemap: true,
 		rollupOptions: {
 			input: {
 				main: resolve(__dirname, 'index.html'),

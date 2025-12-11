@@ -1,0 +1,36 @@
+.search {
+  max-width: 798px;
+  width: 100%;
+
+  &::part(base) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: $color-white-smoke;
+    width: 100%;
+    padding: 15px 12px;
+    border-radius: 30px;
+    cursor: text;
+  }
+
+  &::part(input)::placeholder {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: $color-new-gray;
+  }
+
+  &__icon {
+    height: 24px;
+    width: 24px;
+    color: $color-new-gray;
+  }
+
+  &::part(clear-button) {
+    background-color: transparent;
+    color: $color-new-gray;
+    height: 16px;
+    width: 16px;
+  }
+}

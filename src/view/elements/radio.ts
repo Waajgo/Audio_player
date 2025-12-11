@@ -3,7 +3,7 @@ import '@shoelace-style/shoelace/dist/components/radio-button/radio-button.js';
 import '@shoelace-style/shoelace/dist/components/radio-group/radio-group.js';
 import { el } from "redom";
 
-export const radioBtnEl = (): HTMLElement => {
+export function radioBtnEl(): HTMLElement {
   return el('sl-radio-group', {
       className: 'radio-nav',
       name: 'navigation',

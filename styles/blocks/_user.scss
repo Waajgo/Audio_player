@@ -1,0 +1,24 @@
+.user {
+  position: relative;
+  &::part(base) {
+    width: 246px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    background-color: $color-white-smoke;
+    border: none;
+  }
+
+  &__arrow {
+    width: 16px;
+    height: 16px;
+    color: $color-smashed-pumpkin;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+}
